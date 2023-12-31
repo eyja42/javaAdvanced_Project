@@ -1,0 +1,8 @@
+game\TextureLoaderTest.class
+game\PlayerTest.class
+game\StartThemeTest.class
+game\BulletTest.class
+game\EnemyTest.class
+game\ServerTest.class
+game\WeaponTest.class
+game\ThreadEnemyAITest.class

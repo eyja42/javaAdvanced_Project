@@ -1,0 +1,184 @@
+{
+  "valid": true,
+  "player": {
+    "maxHealth": 100,
+    "health": 100,
+    "speed": 2,
+    "atk": 10,
+    "atkSpeed": 3,
+    "facing": 1,
+    "weapon": {
+      "atk": 10,
+      "atkSpeed": 1,
+      "attacking": false,
+      "angle": 0.1,
+      "dist": 0.1,
+      "frameNum": 0,
+      "tick": 0,
+      "textureString": "WEAPON_CHOPPER",
+      "width": 100,
+      "height": 64,
+      "angles": [0.0,-30.0,-60.0,-30.0,10.0,40.0,60.0,-30.0],
+      "dists": [0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0]
+    },
+    "textureString": "PLAYER_DEFAULT",
+    "x": 1600,
+    "y": 480,
+    "score": 0
+
+  },
+  "enemies": [
+    {
+      "x": 1600,
+      "y": 200,
+      "maxHealth": 100,
+      "health": 100,
+      "speed": 2,
+      "atk": 1,
+      "atkSpeed": 60,
+      "facing": 1,
+      "score": 10,
+      "actionFreq": 5,
+      "textureString": "ENEMY_DEFAULT",
+      "isDead": false
+    }
+  ],
+  "map": {
+    "worldWidth": 3200,
+    "worldHeight": 2000,
+    "walls": [
+      {
+        "x": 200,
+        "y": 400,
+        "width": 400,
+        "height": 20
+      },
+      {
+        "x": 400,
+        "y": 200,
+        "width": 20,
+        "height": 400
+      },
+      {
+        "x": 1000,
+        "y": 400,
+        "width": 400,
+        "height": 20
+      },
+      {
+        "x": 1200,
+        "y": 200,
+        "width": 20,
+        "height": 400
+      },
+      {
+        "x": 1800,
+        "y": 400,
+        "width": 400,
+        "height": 20
+      },
+      {
+        "x": 2000,
+        "y": 200,
+        "width": 20,
+        "height": 400
+      },
+      {
+        "x": 2600,
+        "y": 400,
+        "width": 400,
+        "height": 20
+      },
+      {
+        "x": 2800,
+        "y": 200,
+        "width": 20,
+        "height": 400
+      },
+      {
+        "x": 200,
+        "y": 1600,
+        "width": 400,
+        "height": 20
+      },
+      {
+        "x": 400,
+        "y": 1400,
+        "width": 20,
+        "height": 400
+      },
+      {
+        "x": 1000,
+        "y": 1600,
+        "width": 400,
+        "height": 20
+      },
+      {
+        "x": 1200,
+        "y": 1400,
+        "width": 20,
+        "height": 400
+      },
+      {
+        "x": 1800,
+        "y": 1600,
+        "width": 400,
+        "height": 20
+      },
+      {
+        "x": 2000,
+        "y": 1400,
+        "width": 20,
+        "height": 400
+      },
+      {
+        "x": 2600,
+        "y": 1600,
+        "width": 400,
+        "height": 20
+      },
+      {
+        "x": 2800,
+        "y": 1400,
+        "width": 20,
+        "height": 400
+      },
+      {
+        "x": 600,
+        "y": 1000,
+        "width": 400,
+        "height": 20
+      },
+      {
+        "x": 800,
+        "y": 800,
+        "width": 20,
+        "height": 400
+      },
+      {
+        "x": 1400,
+        "y": 1000,
+        "width": 400,
+        "height": 20
+      },
+      {
+        "x": 1600,
+        "y": 800,
+        "width": 20,
+        "height": 400
+      },
+      {
+        "x": 2200,
+        "y": 1000,
+        "width": 400,
+        "height": 20
+      },
+      {
+        "x": 2400,
+        "y": 800,
+        "width": 20,
+        "height": 400
+      }
+    ]
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "PLAYER_DEFAULT": "src/main/resources/players/well_rounded.png",
+  "ENEMY_DEFAULT": "src/main/resources/enemies/enemy_normal.png",
+  "WEAPON_CHOPPER": "src/main/resources/weapons/chopper.png"
+}
